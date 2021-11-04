@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.pb_container {
+  width: 80%;
+  height: 2rem;
+  border-radius: 2rem;
+  background-color: #eee;
+  overflow: hidden;
+  transition: all 0.5s;
+  margin-bottom: 2rem;
+}
+
+.bar {
+  height: 100%;
+  width: 50%;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: sans-serif;
+  border-radius: inherit;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+        }
+}
+
+.pb_text {
+  color: black;
+}
+
+.myBtn{
+  margin-top: 2rem;
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
